@@ -1,0 +1,4 @@
+#! /usr/bin/sh
+cmd="python3 -u main.py $1"
+echo $cmd
+exec $cmd

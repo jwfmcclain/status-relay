@@ -1,0 +1,13 @@
+service_name = "Status Relay"
+
+[[permissions]]
+id = "DataPosting"
+display_name = "data posting"
+description = "allow posting of updated status"
+allows = [ "POST /update" ]
+
+[[permissions]]
+id = "Reading"
+display_name = "reading status"
+description = "allow retrieval of status"
+allows = [ "GET /" ]
